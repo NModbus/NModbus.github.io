@@ -1,0 +1,634 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class ModbusUtility
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class ModbusUtility
+   ">
+    <meta name="generator" content="docfx 2.29.1.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="NModbus.Utility.ModbusUtility">
+  
+  
+  <h1 id="NModbus_Utility_ModbusUtility" data-uid="NModbus.Utility.ModbusUtility" class="text-break">Class ModbusUtility
+  </h1>
+  <div class="markdown level0 summary"><p>Modbus utility methods.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">ModbusUtility</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="NModbus.Utility.html">NModbus.Utility</a></h6>
+  <h6><strong>Assembly</strong>: NModbus.dll</h6>
+  <h5 id="NModbus_Utility_ModbusUtility_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class ModbusUtility</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/NModbus/NModbus/new/develop/apiSpec/new?filename=NModbus_Utility_ModbusUtility_CalculateCrc_System_Byte___.md&amp;value=---%0Auid%3A%20NModbus.Utility.ModbusUtility.CalculateCrc(System.Byte%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/NModbus/NModbus/blob/develop/NModbus/Utility/ModbusUtility.cs/#L198">View Source</a>
+  </span>
+  <a id="NModbus_Utility_ModbusUtility_CalculateCrc_" data-uid="NModbus.Utility.ModbusUtility.CalculateCrc*"></a>
+  <h4 id="NModbus_Utility_ModbusUtility_CalculateCrc_System_Byte___" data-uid="NModbus.Utility.ModbusUtility.CalculateCrc(System.Byte[])">CalculateCrc(Byte[])</h4>
+  <div class="markdown level1 summary"><p>Calculate Cyclical Redundancy Check.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static byte[] CalculateCrc(byte[] data)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">data</span></td>
+        <td><p>The data used in CRC.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><p>CRC value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/NModbus/NModbus/new/develop/apiSpec/new?filename=NModbus_Utility_ModbusUtility_CalculateLrc_System_Byte___.md&amp;value=---%0Auid%3A%20NModbus.Utility.ModbusUtility.CalculateLrc(System.Byte%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/NModbus/NModbus/blob/develop/NModbus/Utility/ModbusUtility.cs/#L174">View Source</a>
+  </span>
+  <a id="NModbus_Utility_ModbusUtility_CalculateLrc_" data-uid="NModbus.Utility.ModbusUtility.CalculateLrc*"></a>
+  <h4 id="NModbus_Utility_ModbusUtility_CalculateLrc_System_Byte___" data-uid="NModbus.Utility.ModbusUtility.CalculateLrc(System.Byte[])">CalculateLrc(Byte[])</h4>
+  <div class="markdown level1 summary"><p>Calculate Longitudinal Redundancy Check.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static byte CalculateLrc(byte[] data)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">data</span></td>
+        <td><p>The data used in LRC.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span></td>
+        <td><p>LRC value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/NModbus/NModbus/new/develop/apiSpec/new?filename=NModbus_Utility_ModbusUtility_GetAsciiBytes_System_Byte___.md&amp;value=---%0Auid%3A%20NModbus.Utility.ModbusUtility.GetAsciiBytes(System.Byte%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/NModbus/NModbus/blob/develop/NModbus/Utility/ModbusUtility.cs/#L100">View Source</a>
+  </span>
+  <a id="NModbus_Utility_ModbusUtility_GetAsciiBytes_" data-uid="NModbus.Utility.ModbusUtility.GetAsciiBytes*"></a>
+  <h4 id="NModbus_Utility_ModbusUtility_GetAsciiBytes_System_Byte___" data-uid="NModbus.Utility.ModbusUtility.GetAsciiBytes(System.Byte[])">GetAsciiBytes(Byte[])</h4>
+  <div class="markdown level1 summary"><p>Converts an array of bytes to an ASCII byte array.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static byte[] GetAsciiBytes(params byte[] numbers)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">numbers</span></td>
+        <td><p>The byte array.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><p>An array of ASCII byte values.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/NModbus/NModbus/new/develop/apiSpec/new?filename=NModbus_Utility_ModbusUtility_GetAsciiBytes_System_UInt16___.md&amp;value=---%0Auid%3A%20NModbus.Utility.ModbusUtility.GetAsciiBytes(System.UInt16%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/NModbus/NModbus/blob/develop/NModbus/Utility/ModbusUtility.cs/#L110">View Source</a>
+  </span>
+  <a id="NModbus_Utility_ModbusUtility_GetAsciiBytes_" data-uid="NModbus.Utility.ModbusUtility.GetAsciiBytes*"></a>
+  <h4 id="NModbus_Utility_ModbusUtility_GetAsciiBytes_System_UInt16___" data-uid="NModbus.Utility.ModbusUtility.GetAsciiBytes(System.UInt16[])">GetAsciiBytes(UInt16[])</h4>
+  <div class="markdown level1 summary"><p>Converts an array of UInt16 to an ASCII byte array.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static byte[] GetAsciiBytes(params ushort[] numbers)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt16</span>[]</td>
+        <td><span class="parametername">numbers</span></td>
+        <td><p>The ushort array.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><p>An array of ASCII byte values.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/NModbus/NModbus/new/develop/apiSpec/new?filename=NModbus_Utility_ModbusUtility_GetDouble_System_UInt16_System_UInt16_System_UInt16_System_UInt16_.md&amp;value=---%0Auid%3A%20NModbus.Utility.ModbusUtility.GetDouble(System.UInt16%2CSystem.UInt16%2CSystem.UInt16%2CSystem.UInt16)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/NModbus/NModbus/blob/develop/NModbus/Utility/ModbusUtility.cs/#L57">View Source</a>
+  </span>
+  <a id="NModbus_Utility_ModbusUtility_GetDouble_" data-uid="NModbus.Utility.ModbusUtility.GetDouble*"></a>
+  <h4 id="NModbus_Utility_ModbusUtility_GetDouble_System_UInt16_System_UInt16_System_UInt16_System_UInt16_" data-uid="NModbus.Utility.ModbusUtility.GetDouble(System.UInt16,System.UInt16,System.UInt16,System.UInt16)">GetDouble(UInt16, UInt16, UInt16, UInt16)</h4>
+  <div class="markdown level1 summary"><p>Converts four UInt16 values into a IEEE 64 floating point format.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double GetDouble(ushort b3, ushort b2, ushort b1, ushort b0)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt16</span></td>
+        <td><span class="parametername">b3</span></td>
+        <td><p>Highest-order ushort value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt16</span></td>
+        <td><span class="parametername">b2</span></td>
+        <td><p>Second-to-highest-order ushort value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt16</span></td>
+        <td><span class="parametername">b1</span></td>
+        <td><p>Second-to-lowest-order ushort value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt16</span></td>
+        <td><span class="parametername">b0</span></td>
+        <td><p>Lowest-order ushort value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>IEEE 64 floating point value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/NModbus/NModbus/new/develop/apiSpec/new?filename=NModbus_Utility_ModbusUtility_GetSingle_System_UInt16_System_UInt16_.md&amp;value=---%0Auid%3A%20NModbus.Utility.ModbusUtility.GetSingle(System.UInt16%2CSystem.UInt16)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/NModbus/NModbus/blob/develop/NModbus/Utility/ModbusUtility.cs/#L74">View Source</a>
+  </span>
+  <a id="NModbus_Utility_ModbusUtility_GetSingle_" data-uid="NModbus.Utility.ModbusUtility.GetSingle*"></a>
+  <h4 id="NModbus_Utility_ModbusUtility_GetSingle_System_UInt16_System_UInt16_" data-uid="NModbus.Utility.ModbusUtility.GetSingle(System.UInt16,System.UInt16)">GetSingle(UInt16, UInt16)</h4>
+  <div class="markdown level1 summary"><p>Converts two UInt16 values into a IEEE 32 floating point format.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float GetSingle(ushort highOrderValue, ushort lowOrderValue)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt16</span></td>
+        <td><span class="parametername">highOrderValue</span></td>
+        <td><p>High order ushort value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt16</span></td>
+        <td><span class="parametername">lowOrderValue</span></td>
+        <td><p>Low order ushort value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><p>IEEE 32 floating point value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/NModbus/NModbus/new/develop/apiSpec/new?filename=NModbus_Utility_ModbusUtility_GetUInt32_System_UInt16_System_UInt16_.md&amp;value=---%0Auid%3A%20NModbus.Utility.ModbusUtility.GetUInt32(System.UInt16%2CSystem.UInt16)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/NModbus/NModbus/blob/develop/NModbus/Utility/ModbusUtility.cs/#L86">View Source</a>
+  </span>
+  <a id="NModbus_Utility_ModbusUtility_GetUInt32_" data-uid="NModbus.Utility.ModbusUtility.GetUInt32*"></a>
+  <h4 id="NModbus_Utility_ModbusUtility_GetUInt32_System_UInt16_System_UInt16_" data-uid="NModbus.Utility.ModbusUtility.GetUInt32(System.UInt16,System.UInt16)">GetUInt32(UInt16, UInt16)</h4>
+  <div class="markdown level1 summary"><p>Converts two UInt16 values into a UInt32.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static uint GetUInt32(ushort highOrderValue, ushort lowOrderValue)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt16</span></td>
+        <td><span class="parametername">highOrderValue</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt16</span></td>
+        <td><span class="parametername">lowOrderValue</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/NModbus/NModbus/new/develop/apiSpec/new?filename=NModbus_Utility_ModbusUtility_HexToBytes_System_String_.md&amp;value=---%0Auid%3A%20NModbus.Utility.ModbusUtility.HexToBytes(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/NModbus/NModbus/blob/develop/NModbus/Utility/ModbusUtility.cs/#L147">View Source</a>
+  </span>
+  <a id="NModbus_Utility_ModbusUtility_HexToBytes_" data-uid="NModbus.Utility.ModbusUtility.HexToBytes*"></a>
+  <h4 id="NModbus_Utility_ModbusUtility_HexToBytes_System_String_" data-uid="NModbus.Utility.ModbusUtility.HexToBytes(System.String)">HexToBytes(String)</h4>
+  <div class="markdown level1 summary"><p>Converts a hex string to a byte array.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static byte[] HexToBytes(string hex)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">hex</span></td>
+        <td><p>The hex string.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><p>Array of bytes.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/NModbus/NModbus/new/develop/apiSpec/new?filename=NModbus_Utility_ModbusUtility_NetworkBytesToHostUInt16_System_Byte___.md&amp;value=---%0Auid%3A%20NModbus.Utility.ModbusUtility.NetworkBytesToHostUInt16(System.Byte%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/NModbus/NModbus/blob/develop/NModbus/Utility/ModbusUtility.cs/#L120">View Source</a>
+  </span>
+  <a id="NModbus_Utility_ModbusUtility_NetworkBytesToHostUInt16_" data-uid="NModbus.Utility.ModbusUtility.NetworkBytesToHostUInt16*"></a>
+  <h4 id="NModbus_Utility_ModbusUtility_NetworkBytesToHostUInt16_System_Byte___" data-uid="NModbus.Utility.ModbusUtility.NetworkBytesToHostUInt16(System.Byte[])">NetworkBytesToHostUInt16(Byte[])</h4>
+  <div class="markdown level1 summary"><p>Converts a network order byte array to an array of UInt16 values in host order.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ushort[] NetworkBytesToHostUInt16(byte[] networkBytes)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">networkBytes</span></td>
+        <td><p>The network order byte array.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt16</span>[]</td>
+        <td><p>The host order ushort array.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/NModbus/NModbus/new/develop/apiSpec/new?filename=NModbus_Utility_ModbusUtility.md&amp;value=---%0Auid%3A%20NModbus.Utility.ModbusUtility%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/NModbus/NModbus/blob/develop/NModbus/Utility/ModbusUtility.cs/#L11" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Copyright © 2015-2017 Microsoft<br>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

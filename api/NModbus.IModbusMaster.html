@@ -1,0 +1,1322 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Interface IModbusMaster
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Interface IModbusMaster
+   ">
+    <meta name="generator" content="docfx 2.29.1.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="NModbus.IModbusMaster">
+  
+  
+  <h1 id="NModbus_IModbusMaster" data-uid="NModbus.IModbusMaster" class="text-break">Interface IModbusMaster
+  </h1>
+  <div class="markdown level0 summary"><p>Modbus master device.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.IDisposable.Dispose()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="NModbus.html">NModbus</a></h6>
+  <h6><strong>Assembly</strong>: NModbus.dll</h6>
+  <h5 id="NModbus_IModbusMaster_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface IModbusMaster : IDisposable</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/NModbus/NModbus/new/develop/apiSpec/new?filename=NModbus_IModbusMaster_Transport.md&amp;value=---%0Auid%3A%20NModbus.IModbusMaster.Transport%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/NModbus/NModbus/blob/develop/NModbus/Interfaces/IModbusMaster.cs/#L14">View Source</a>
+  </span>
+  <a id="NModbus_IModbusMaster_Transport_" data-uid="NModbus.IModbusMaster.Transport*"></a>
+  <h4 id="NModbus_IModbusMaster_Transport" data-uid="NModbus.IModbusMaster.Transport">Transport</h4>
+  <div class="markdown level1 summary"><p>Transport used by this master.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IModbusTransport Transport { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NModbus.IModbusTransport.html">IModbusTransport</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/NModbus/NModbus/new/develop/apiSpec/new?filename=NModbus_IModbusMaster_ExecuteCustomMessage__1_NModbus_IModbusMessage_.md&amp;value=---%0Auid%3A%20NModbus.IModbusMaster.ExecuteCustomMessage%60%601(NModbus.IModbusMessage)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/NModbus/NModbus/blob/develop/NModbus/Interfaces/IModbusMaster.cs/#L194">View Source</a>
+  </span>
+  <a id="NModbus_IModbusMaster_ExecuteCustomMessage_" data-uid="NModbus.IModbusMaster.ExecuteCustomMessage*"></a>
+  <h4 id="NModbus_IModbusMaster_ExecuteCustomMessage__1_NModbus_IModbusMessage_" data-uid="NModbus.IModbusMaster.ExecuteCustomMessage``1(NModbus.IModbusMessage)">ExecuteCustomMessage&lt;TResponse&gt;(IModbusMessage)</h4>
+  <div class="markdown level1 summary"><p>Executes the custom message.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">TResponse ExecuteCustomMessage&lt;TResponse&gt;(IModbusMessage request)where TResponse : IModbusMessage, new ()</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NModbus.IModbusMessage.html">IModbusMessage</a></td>
+        <td><span class="parametername">request</span></td>
+        <td><p>The request.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TResponse</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TResponse</span></td>
+        <td><p>The type of the response.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/NModbus/NModbus/new/develop/apiSpec/new?filename=NModbus_IModbusMaster_ReadCoils_System_Byte_System_UInt16_System_UInt16_.md&amp;value=---%0Auid%3A%20NModbus.IModbusMaster.ReadCoils(System.Byte%2CSystem.UInt16%2CSystem.UInt16)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/NModbus/NModbus/blob/develop/NModbus/Interfaces/IModbusMaster.cs/#L23">View Source</a>
+  </span>
+  <a id="NModbus_IModbusMaster_ReadCoils_" data-uid="NModbus.IModbusMaster.ReadCoils*"></a>
+  <h4 id="NModbus_IModbusMaster_ReadCoils_System_Byte_System_UInt16_System_UInt16_" data-uid="NModbus.IModbusMaster.ReadCoils(System.Byte,System.UInt16,System.UInt16)">ReadCoils(Byte, UInt16, UInt16)</h4>
+  <div class="markdown level1 summary"><p>Reads from 1 to 2000 contiguous coils status.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool[] ReadCoils(byte slaveAddress, ushort startAddress, ushort numberOfPoints)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span></td>
+        <td><span class="parametername">slaveAddress</span></td>
+        <td><p>Address of device to read values from.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt16</span></td>
+        <td><span class="parametername">startAddress</span></td>
+        <td><p>Address to begin reading.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt16</span></td>
+        <td><span class="parametername">numberOfPoints</span></td>
+        <td><p>Number of coils to read.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span>[]</td>
+        <td><p>Coils status.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/NModbus/NModbus/new/develop/apiSpec/new?filename=NModbus_IModbusMaster_ReadCoilsAsync_System_Byte_System_UInt16_System_UInt16_.md&amp;value=---%0Auid%3A%20NModbus.IModbusMaster.ReadCoilsAsync(System.Byte%2CSystem.UInt16%2CSystem.UInt16)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/NModbus/NModbus/blob/develop/NModbus/Interfaces/IModbusMaster.cs/#L32">View Source</a>
+  </span>
+  <a id="NModbus_IModbusMaster_ReadCoilsAsync_" data-uid="NModbus.IModbusMaster.ReadCoilsAsync*"></a>
+  <h4 id="NModbus_IModbusMaster_ReadCoilsAsync_System_Byte_System_UInt16_System_UInt16_" data-uid="NModbus.IModbusMaster.ReadCoilsAsync(System.Byte,System.UInt16,System.UInt16)">ReadCoilsAsync(Byte, UInt16, UInt16)</h4>
+  <div class="markdown level1 summary"><p>Asynchronously reads from 1 to 2000 contiguous coils status.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;bool[]&gt; ReadCoilsAsync(byte slaveAddress, ushort startAddress, ushort numberOfPoints)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span></td>
+        <td><span class="parametername">slaveAddress</span></td>
+        <td><p>Address of device to read values from.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt16</span></td>
+        <td><span class="parametername">startAddress</span></td>
+        <td><p>Address to begin reading.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt16</span></td>
+        <td><span class="parametername">numberOfPoints</span></td>
+        <td><p>Number of coils to read.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">System.Boolean</span>[]&gt;</td>
+        <td><p>A task that represents the asynchronous read operation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/NModbus/NModbus/new/develop/apiSpec/new?filename=NModbus_IModbusMaster_ReadHoldingRegisters_System_Byte_System_UInt16_System_UInt16_.md&amp;value=---%0Auid%3A%20NModbus.IModbusMaster.ReadHoldingRegisters(System.Byte%2CSystem.UInt16%2CSystem.UInt16)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/NModbus/NModbus/blob/develop/NModbus/Interfaces/IModbusMaster.cs/#L59">View Source</a>
+  </span>
+  <a id="NModbus_IModbusMaster_ReadHoldingRegisters_" data-uid="NModbus.IModbusMaster.ReadHoldingRegisters*"></a>
+  <h4 id="NModbus_IModbusMaster_ReadHoldingRegisters_System_Byte_System_UInt16_System_UInt16_" data-uid="NModbus.IModbusMaster.ReadHoldingRegisters(System.Byte,System.UInt16,System.UInt16)">ReadHoldingRegisters(Byte, UInt16, UInt16)</h4>
+  <div class="markdown level1 summary"><p>Reads contiguous block of holding registers.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ushort[] ReadHoldingRegisters(byte slaveAddress, ushort startAddress, ushort numberOfPoints)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span></td>
+        <td><span class="parametername">slaveAddress</span></td>
+        <td><p>Address of device to read values from.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt16</span></td>
+        <td><span class="parametername">startAddress</span></td>
+        <td><p>Address to begin reading.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt16</span></td>
+        <td><span class="parametername">numberOfPoints</span></td>
+        <td><p>Number of holding registers to read.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt16</span>[]</td>
+        <td><p>Holding registers status.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/NModbus/NModbus/new/develop/apiSpec/new?filename=NModbus_IModbusMaster_ReadHoldingRegistersAsync_System_Byte_System_UInt16_System_UInt16_.md&amp;value=---%0Auid%3A%20NModbus.IModbusMaster.ReadHoldingRegistersAsync(System.Byte%2CSystem.UInt16%2CSystem.UInt16)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/NModbus/NModbus/blob/develop/NModbus/Interfaces/IModbusMaster.cs/#L68">View Source</a>
+  </span>
+  <a id="NModbus_IModbusMaster_ReadHoldingRegistersAsync_" data-uid="NModbus.IModbusMaster.ReadHoldingRegistersAsync*"></a>
+  <h4 id="NModbus_IModbusMaster_ReadHoldingRegistersAsync_System_Byte_System_UInt16_System_UInt16_" data-uid="NModbus.IModbusMaster.ReadHoldingRegistersAsync(System.Byte,System.UInt16,System.UInt16)">ReadHoldingRegistersAsync(Byte, UInt16, UInt16)</h4>
+  <div class="markdown level1 summary"><p>Asynchronously reads contiguous block of holding registers.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;ushort[]&gt; ReadHoldingRegistersAsync(byte slaveAddress, ushort startAddress, ushort numberOfPoints)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span></td>
+        <td><span class="parametername">slaveAddress</span></td>
+        <td><p>Address of device to read values from.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt16</span></td>
+        <td><span class="parametername">startAddress</span></td>
+        <td><p>Address to begin reading.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt16</span></td>
+        <td><span class="parametername">numberOfPoints</span></td>
+        <td><p>Number of holding registers to read.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">System.UInt16</span>[]&gt;</td>
+        <td><p>A task that represents the asynchronous read operation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/NModbus/NModbus/new/develop/apiSpec/new?filename=NModbus_IModbusMaster_ReadInputRegisters_System_Byte_System_UInt16_System_UInt16_.md&amp;value=---%0Auid%3A%20NModbus.IModbusMaster.ReadInputRegisters(System.Byte%2CSystem.UInt16%2CSystem.UInt16)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/NModbus/NModbus/blob/develop/NModbus/Interfaces/IModbusMaster.cs/#L77">View Source</a>
+  </span>
+  <a id="NModbus_IModbusMaster_ReadInputRegisters_" data-uid="NModbus.IModbusMaster.ReadInputRegisters*"></a>
+  <h4 id="NModbus_IModbusMaster_ReadInputRegisters_System_Byte_System_UInt16_System_UInt16_" data-uid="NModbus.IModbusMaster.ReadInputRegisters(System.Byte,System.UInt16,System.UInt16)">ReadInputRegisters(Byte, UInt16, UInt16)</h4>
+  <div class="markdown level1 summary"><p>Reads contiguous block of input registers.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ushort[] ReadInputRegisters(byte slaveAddress, ushort startAddress, ushort numberOfPoints)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span></td>
+        <td><span class="parametername">slaveAddress</span></td>
+        <td><p>Address of device to read values from.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt16</span></td>
+        <td><span class="parametername">startAddress</span></td>
+        <td><p>Address to begin reading.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt16</span></td>
+        <td><span class="parametername">numberOfPoints</span></td>
+        <td><p>Number of holding registers to read.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt16</span>[]</td>
+        <td><p>Input registers status.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/NModbus/NModbus/new/develop/apiSpec/new?filename=NModbus_IModbusMaster_ReadInputRegistersAsync_System_Byte_System_UInt16_System_UInt16_.md&amp;value=---%0Auid%3A%20NModbus.IModbusMaster.ReadInputRegistersAsync(System.Byte%2CSystem.UInt16%2CSystem.UInt16)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/NModbus/NModbus/blob/develop/NModbus/Interfaces/IModbusMaster.cs/#L86">View Source</a>
+  </span>
+  <a id="NModbus_IModbusMaster_ReadInputRegistersAsync_" data-uid="NModbus.IModbusMaster.ReadInputRegistersAsync*"></a>
+  <h4 id="NModbus_IModbusMaster_ReadInputRegistersAsync_System_Byte_System_UInt16_System_UInt16_" data-uid="NModbus.IModbusMaster.ReadInputRegistersAsync(System.Byte,System.UInt16,System.UInt16)">ReadInputRegistersAsync(Byte, UInt16, UInt16)</h4>
+  <div class="markdown level1 summary"><p>Asynchronously reads contiguous block of input registers.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;ushort[]&gt; ReadInputRegistersAsync(byte slaveAddress, ushort startAddress, ushort numberOfPoints)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span></td>
+        <td><span class="parametername">slaveAddress</span></td>
+        <td><p>Address of device to read values from.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt16</span></td>
+        <td><span class="parametername">startAddress</span></td>
+        <td><p>Address to begin reading.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt16</span></td>
+        <td><span class="parametername">numberOfPoints</span></td>
+        <td><p>Number of holding registers to read.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">System.UInt16</span>[]&gt;</td>
+        <td><p>A task that represents the asynchronous read operation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/NModbus/NModbus/new/develop/apiSpec/new?filename=NModbus_IModbusMaster_ReadInputs_System_Byte_System_UInt16_System_UInt16_.md&amp;value=---%0Auid%3A%20NModbus.IModbusMaster.ReadInputs(System.Byte%2CSystem.UInt16%2CSystem.UInt16)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/NModbus/NModbus/blob/develop/NModbus/Interfaces/IModbusMaster.cs/#L41">View Source</a>
+  </span>
+  <a id="NModbus_IModbusMaster_ReadInputs_" data-uid="NModbus.IModbusMaster.ReadInputs*"></a>
+  <h4 id="NModbus_IModbusMaster_ReadInputs_System_Byte_System_UInt16_System_UInt16_" data-uid="NModbus.IModbusMaster.ReadInputs(System.Byte,System.UInt16,System.UInt16)">ReadInputs(Byte, UInt16, UInt16)</h4>
+  <div class="markdown level1 summary"><p>Reads from 1 to 2000 contiguous discrete input status.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool[] ReadInputs(byte slaveAddress, ushort startAddress, ushort numberOfPoints)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span></td>
+        <td><span class="parametername">slaveAddress</span></td>
+        <td><p>Address of device to read values from.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt16</span></td>
+        <td><span class="parametername">startAddress</span></td>
+        <td><p>Address to begin reading.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt16</span></td>
+        <td><span class="parametername">numberOfPoints</span></td>
+        <td><p>Number of discrete inputs to read.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span>[]</td>
+        <td><p>Discrete inputs status.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/NModbus/NModbus/new/develop/apiSpec/new?filename=NModbus_IModbusMaster_ReadInputsAsync_System_Byte_System_UInt16_System_UInt16_.md&amp;value=---%0Auid%3A%20NModbus.IModbusMaster.ReadInputsAsync(System.Byte%2CSystem.UInt16%2CSystem.UInt16)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/NModbus/NModbus/blob/develop/NModbus/Interfaces/IModbusMaster.cs/#L50">View Source</a>
+  </span>
+  <a id="NModbus_IModbusMaster_ReadInputsAsync_" data-uid="NModbus.IModbusMaster.ReadInputsAsync*"></a>
+  <h4 id="NModbus_IModbusMaster_ReadInputsAsync_System_Byte_System_UInt16_System_UInt16_" data-uid="NModbus.IModbusMaster.ReadInputsAsync(System.Byte,System.UInt16,System.UInt16)">ReadInputsAsync(Byte, UInt16, UInt16)</h4>
+  <div class="markdown level1 summary"><p>Asynchronously reads from 1 to 2000 contiguous discrete input status.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;bool[]&gt; ReadInputsAsync(byte slaveAddress, ushort startAddress, ushort numberOfPoints)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span></td>
+        <td><span class="parametername">slaveAddress</span></td>
+        <td><p>Address of device to read values from.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt16</span></td>
+        <td><span class="parametername">startAddress</span></td>
+        <td><p>Address to begin reading.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt16</span></td>
+        <td><span class="parametername">numberOfPoints</span></td>
+        <td><p>Number of discrete inputs to read.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">System.Boolean</span>[]&gt;</td>
+        <td><p>A task that represents the asynchronous read operation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/NModbus/NModbus/new/develop/apiSpec/new?filename=NModbus_IModbusMaster_ReadWriteMultipleRegisters_System_Byte_System_UInt16_System_UInt16_System_UInt16_System_UInt16___.md&amp;value=---%0Auid%3A%20NModbus.IModbusMaster.ReadWriteMultipleRegisters(System.Byte%2CSystem.UInt16%2CSystem.UInt16%2CSystem.UInt16%2CSystem.UInt16%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/NModbus/NModbus/blob/develop/NModbus/Interfaces/IModbusMaster.cs/#L165">View Source</a>
+  </span>
+  <a id="NModbus_IModbusMaster_ReadWriteMultipleRegisters_" data-uid="NModbus.IModbusMaster.ReadWriteMultipleRegisters*"></a>
+  <h4 id="NModbus_IModbusMaster_ReadWriteMultipleRegisters_System_Byte_System_UInt16_System_UInt16_System_UInt16_System_UInt16___" data-uid="NModbus.IModbusMaster.ReadWriteMultipleRegisters(System.Byte,System.UInt16,System.UInt16,System.UInt16,System.UInt16[])">ReadWriteMultipleRegisters(Byte, UInt16, UInt16, UInt16, UInt16[])</h4>
+  <div class="markdown level1 summary"><p>Performs a combination of one read operation and one write operation in a single Modbus transaction.
+The write operation is performed before the read.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ushort[] ReadWriteMultipleRegisters(byte slaveAddress, ushort startReadAddress, ushort numberOfPointsToRead, ushort startWriteAddress, ushort[] writeData)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span></td>
+        <td><span class="parametername">slaveAddress</span></td>
+        <td><p>Address of device to read values from.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt16</span></td>
+        <td><span class="parametername">startReadAddress</span></td>
+        <td><p>Address to begin reading (Holding registers are addressed starting at 0).</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt16</span></td>
+        <td><span class="parametername">numberOfPointsToRead</span></td>
+        <td><p>Number of registers to read.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt16</span></td>
+        <td><span class="parametername">startWriteAddress</span></td>
+        <td><p>Address to begin writing (Holding registers are addressed starting at 0).</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt16</span>[]</td>
+        <td><span class="parametername">writeData</span></td>
+        <td><p>Register values to write.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt16</span>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/NModbus/NModbus/new/develop/apiSpec/new?filename=NModbus_IModbusMaster_ReadWriteMultipleRegistersAsync_System_Byte_System_UInt16_System_UInt16_System_UInt16_System_UInt16___.md&amp;value=---%0Auid%3A%20NModbus.IModbusMaster.ReadWriteMultipleRegistersAsync(System.Byte%2CSystem.UInt16%2CSystem.UInt16%2CSystem.UInt16%2CSystem.UInt16%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/NModbus/NModbus/blob/develop/NModbus/Interfaces/IModbusMaster.cs/#L182">View Source</a>
+  </span>
+  <a id="NModbus_IModbusMaster_ReadWriteMultipleRegistersAsync_" data-uid="NModbus.IModbusMaster.ReadWriteMultipleRegistersAsync*"></a>
+  <h4 id="NModbus_IModbusMaster_ReadWriteMultipleRegistersAsync_System_Byte_System_UInt16_System_UInt16_System_UInt16_System_UInt16___" data-uid="NModbus.IModbusMaster.ReadWriteMultipleRegistersAsync(System.Byte,System.UInt16,System.UInt16,System.UInt16,System.UInt16[])">ReadWriteMultipleRegistersAsync(Byte, UInt16, UInt16, UInt16, UInt16[])</h4>
+  <div class="markdown level1 summary"><p>Asynchronously performs a combination of one read operation and one write operation in a single Modbus transaction.
+The write operation is performed before the read.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;ushort[]&gt; ReadWriteMultipleRegistersAsync(byte slaveAddress, ushort startReadAddress, ushort numberOfPointsToRead, ushort startWriteAddress, ushort[] writeData)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span></td>
+        <td><span class="parametername">slaveAddress</span></td>
+        <td><p>Address of device to read values from.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt16</span></td>
+        <td><span class="parametername">startReadAddress</span></td>
+        <td><p>Address to begin reading (Holding registers are addressed starting at 0).</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt16</span></td>
+        <td><span class="parametername">numberOfPointsToRead</span></td>
+        <td><p>Number of registers to read.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt16</span></td>
+        <td><span class="parametername">startWriteAddress</span></td>
+        <td><p>Address to begin writing (Holding registers are addressed starting at 0).</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt16</span>[]</td>
+        <td><span class="parametername">writeData</span></td>
+        <td><p>Register values to write.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">System.UInt16</span>[]&gt;</td>
+        <td><p>A task that represents the asynchronous operation</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/NModbus/NModbus/new/develop/apiSpec/new?filename=NModbus_IModbusMaster_WriteMultipleCoils_System_Byte_System_UInt16_System_Boolean___.md&amp;value=---%0Auid%3A%20NModbus.IModbusMaster.WriteMultipleCoils(System.Byte%2CSystem.UInt16%2CSystem.Boolean%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/NModbus/NModbus/blob/develop/NModbus/Interfaces/IModbusMaster.cs/#L145">View Source</a>
+  </span>
+  <a id="NModbus_IModbusMaster_WriteMultipleCoils_" data-uid="NModbus.IModbusMaster.WriteMultipleCoils*"></a>
+  <h4 id="NModbus_IModbusMaster_WriteMultipleCoils_System_Byte_System_UInt16_System_Boolean___" data-uid="NModbus.IModbusMaster.WriteMultipleCoils(System.Byte,System.UInt16,System.Boolean[])">WriteMultipleCoils(Byte, UInt16, Boolean[])</h4>
+  <div class="markdown level1 summary"><p>Writes a sequence of coils.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void WriteMultipleCoils(byte slaveAddress, ushort startAddress, bool[] data)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span></td>
+        <td><span class="parametername">slaveAddress</span></td>
+        <td><p>Address of the device to write to.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt16</span></td>
+        <td><span class="parametername">startAddress</span></td>
+        <td><p>Address to begin writing values.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span>[]</td>
+        <td><span class="parametername">data</span></td>
+        <td><p>Values to write.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/NModbus/NModbus/new/develop/apiSpec/new?filename=NModbus_IModbusMaster_WriteMultipleCoilsAsync_System_Byte_System_UInt16_System_Boolean___.md&amp;value=---%0Auid%3A%20NModbus.IModbusMaster.WriteMultipleCoilsAsync(System.Byte%2CSystem.UInt16%2CSystem.Boolean%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/NModbus/NModbus/blob/develop/NModbus/Interfaces/IModbusMaster.cs/#L154">View Source</a>
+  </span>
+  <a id="NModbus_IModbusMaster_WriteMultipleCoilsAsync_" data-uid="NModbus.IModbusMaster.WriteMultipleCoilsAsync*"></a>
+  <h4 id="NModbus_IModbusMaster_WriteMultipleCoilsAsync_System_Byte_System_UInt16_System_Boolean___" data-uid="NModbus.IModbusMaster.WriteMultipleCoilsAsync(System.Byte,System.UInt16,System.Boolean[])">WriteMultipleCoilsAsync(Byte, UInt16, Boolean[])</h4>
+  <div class="markdown level1 summary"><p>Asynchronously writes a sequence of coils.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task WriteMultipleCoilsAsync(byte slaveAddress, ushort startAddress, bool[] data)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span></td>
+        <td><span class="parametername">slaveAddress</span></td>
+        <td><p>Address of the device to write to.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt16</span></td>
+        <td><span class="parametername">startAddress</span></td>
+        <td><p>Address to begin writing values.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span>[]</td>
+        <td><span class="parametername">data</span></td>
+        <td><p>Values to write.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td><p>A task that represents the asynchronous write operation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/NModbus/NModbus/new/develop/apiSpec/new?filename=NModbus_IModbusMaster_WriteMultipleRegisters_System_Byte_System_UInt16_System_UInt16___.md&amp;value=---%0Auid%3A%20NModbus.IModbusMaster.WriteMultipleRegisters(System.Byte%2CSystem.UInt16%2CSystem.UInt16%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/NModbus/NModbus/blob/develop/NModbus/Interfaces/IModbusMaster.cs/#L128">View Source</a>
+  </span>
+  <a id="NModbus_IModbusMaster_WriteMultipleRegisters_" data-uid="NModbus.IModbusMaster.WriteMultipleRegisters*"></a>
+  <h4 id="NModbus_IModbusMaster_WriteMultipleRegisters_System_Byte_System_UInt16_System_UInt16___" data-uid="NModbus.IModbusMaster.WriteMultipleRegisters(System.Byte,System.UInt16,System.UInt16[])">WriteMultipleRegisters(Byte, UInt16, UInt16[])</h4>
+  <div class="markdown level1 summary"><p>Writes a block of 1 to 123 contiguous registers.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void WriteMultipleRegisters(byte slaveAddress, ushort startAddress, ushort[] data)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span></td>
+        <td><span class="parametername">slaveAddress</span></td>
+        <td><p>Address of the device to write to.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt16</span></td>
+        <td><span class="parametername">startAddress</span></td>
+        <td><p>Address to begin writing values.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt16</span>[]</td>
+        <td><span class="parametername">data</span></td>
+        <td><p>Values to write.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/NModbus/NModbus/new/develop/apiSpec/new?filename=NModbus_IModbusMaster_WriteMultipleRegistersAsync_System_Byte_System_UInt16_System_UInt16___.md&amp;value=---%0Auid%3A%20NModbus.IModbusMaster.WriteMultipleRegistersAsync(System.Byte%2CSystem.UInt16%2CSystem.UInt16%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/NModbus/NModbus/blob/develop/NModbus/Interfaces/IModbusMaster.cs/#L137">View Source</a>
+  </span>
+  <a id="NModbus_IModbusMaster_WriteMultipleRegistersAsync_" data-uid="NModbus.IModbusMaster.WriteMultipleRegistersAsync*"></a>
+  <h4 id="NModbus_IModbusMaster_WriteMultipleRegistersAsync_System_Byte_System_UInt16_System_UInt16___" data-uid="NModbus.IModbusMaster.WriteMultipleRegistersAsync(System.Byte,System.UInt16,System.UInt16[])">WriteMultipleRegistersAsync(Byte, UInt16, UInt16[])</h4>
+  <div class="markdown level1 summary"><p>Asynchronously writes a block of 1 to 123 contiguous registers.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task WriteMultipleRegistersAsync(byte slaveAddress, ushort startAddress, ushort[] data)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span></td>
+        <td><span class="parametername">slaveAddress</span></td>
+        <td><p>Address of the device to write to.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt16</span></td>
+        <td><span class="parametername">startAddress</span></td>
+        <td><p>Address to begin writing values.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt16</span>[]</td>
+        <td><span class="parametername">data</span></td>
+        <td><p>Values to write.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td><p>A task that represents the asynchronous write operation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/NModbus/NModbus/new/develop/apiSpec/new?filename=NModbus_IModbusMaster_WriteSingleCoil_System_Byte_System_UInt16_System_Boolean_.md&amp;value=---%0Auid%3A%20NModbus.IModbusMaster.WriteSingleCoil(System.Byte%2CSystem.UInt16%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/NModbus/NModbus/blob/develop/NModbus/Interfaces/IModbusMaster.cs/#L94">View Source</a>
+  </span>
+  <a id="NModbus_IModbusMaster_WriteSingleCoil_" data-uid="NModbus.IModbusMaster.WriteSingleCoil*"></a>
+  <h4 id="NModbus_IModbusMaster_WriteSingleCoil_System_Byte_System_UInt16_System_Boolean_" data-uid="NModbus.IModbusMaster.WriteSingleCoil(System.Byte,System.UInt16,System.Boolean)">WriteSingleCoil(Byte, UInt16, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Writes a single coil value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void WriteSingleCoil(byte slaveAddress, ushort coilAddress, bool value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span></td>
+        <td><span class="parametername">slaveAddress</span></td>
+        <td><p>Address of the device to write to.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt16</span></td>
+        <td><span class="parametername">coilAddress</span></td>
+        <td><p>Address to write value to.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>Value to write.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/NModbus/NModbus/new/develop/apiSpec/new?filename=NModbus_IModbusMaster_WriteSingleCoilAsync_System_Byte_System_UInt16_System_Boolean_.md&amp;value=---%0Auid%3A%20NModbus.IModbusMaster.WriteSingleCoilAsync(System.Byte%2CSystem.UInt16%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/NModbus/NModbus/blob/develop/NModbus/Interfaces/IModbusMaster.cs/#L103">View Source</a>
+  </span>
+  <a id="NModbus_IModbusMaster_WriteSingleCoilAsync_" data-uid="NModbus.IModbusMaster.WriteSingleCoilAsync*"></a>
+  <h4 id="NModbus_IModbusMaster_WriteSingleCoilAsync_System_Byte_System_UInt16_System_Boolean_" data-uid="NModbus.IModbusMaster.WriteSingleCoilAsync(System.Byte,System.UInt16,System.Boolean)">WriteSingleCoilAsync(Byte, UInt16, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Asynchronously writes a single coil value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task WriteSingleCoilAsync(byte slaveAddress, ushort coilAddress, bool value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span></td>
+        <td><span class="parametername">slaveAddress</span></td>
+        <td><p>Address of the device to write to.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt16</span></td>
+        <td><span class="parametername">coilAddress</span></td>
+        <td><p>Address to write value to.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>Value to write.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td><p>A task that represents the asynchronous write operation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/NModbus/NModbus/new/develop/apiSpec/new?filename=NModbus_IModbusMaster_WriteSingleRegister_System_Byte_System_UInt16_System_UInt16_.md&amp;value=---%0Auid%3A%20NModbus.IModbusMaster.WriteSingleRegister(System.Byte%2CSystem.UInt16%2CSystem.UInt16)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/NModbus/NModbus/blob/develop/NModbus/Interfaces/IModbusMaster.cs/#L111">View Source</a>
+  </span>
+  <a id="NModbus_IModbusMaster_WriteSingleRegister_" data-uid="NModbus.IModbusMaster.WriteSingleRegister*"></a>
+  <h4 id="NModbus_IModbusMaster_WriteSingleRegister_System_Byte_System_UInt16_System_UInt16_" data-uid="NModbus.IModbusMaster.WriteSingleRegister(System.Byte,System.UInt16,System.UInt16)">WriteSingleRegister(Byte, UInt16, UInt16)</h4>
+  <div class="markdown level1 summary"><p>Writes a single holding register.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void WriteSingleRegister(byte slaveAddress, ushort registerAddress, ushort value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span></td>
+        <td><span class="parametername">slaveAddress</span></td>
+        <td><p>Address of the device to write to.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt16</span></td>
+        <td><span class="parametername">registerAddress</span></td>
+        <td><p>Address to write.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt16</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>Value to write.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/NModbus/NModbus/new/develop/apiSpec/new?filename=NModbus_IModbusMaster_WriteSingleRegisterAsync_System_Byte_System_UInt16_System_UInt16_.md&amp;value=---%0Auid%3A%20NModbus.IModbusMaster.WriteSingleRegisterAsync(System.Byte%2CSystem.UInt16%2CSystem.UInt16)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/NModbus/NModbus/blob/develop/NModbus/Interfaces/IModbusMaster.cs/#L120">View Source</a>
+  </span>
+  <a id="NModbus_IModbusMaster_WriteSingleRegisterAsync_" data-uid="NModbus.IModbusMaster.WriteSingleRegisterAsync*"></a>
+  <h4 id="NModbus_IModbusMaster_WriteSingleRegisterAsync_System_Byte_System_UInt16_System_UInt16_" data-uid="NModbus.IModbusMaster.WriteSingleRegisterAsync(System.Byte,System.UInt16,System.UInt16)">WriteSingleRegisterAsync(Byte, UInt16, UInt16)</h4>
+  <div class="markdown level1 summary"><p>Asynchronously writes a single holding register.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task WriteSingleRegisterAsync(byte slaveAddress, ushort registerAddress, ushort value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span></td>
+        <td><span class="parametername">slaveAddress</span></td>
+        <td><p>Address of the device to write to.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt16</span></td>
+        <td><span class="parametername">registerAddress</span></td>
+        <td><p>Address to write.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt16</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>Value to write.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td><p>A task that represents the asynchronous write operation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="NModbus.Extensions.Enron.EnronModbus.html#NModbus_Extensions_Enron_EnronModbus_ReadHoldingRegisters32_NModbus_IModbusMaster_System_Byte_System_UInt16_System_UInt16_">EnronModbus.ReadHoldingRegisters32(IModbusMaster, Byte, UInt16, UInt16)</a>
+  </div>
+  <div>
+      <a class="xref" href="NModbus.Extensions.Enron.EnronModbus.html#NModbus_Extensions_Enron_EnronModbus_ReadInputRegisters32_NModbus_IModbusMaster_System_Byte_System_UInt16_System_UInt16_">EnronModbus.ReadInputRegisters32(IModbusMaster, Byte, UInt16, UInt16)</a>
+  </div>
+  <div>
+      <a class="xref" href="NModbus.Extensions.Enron.EnronModbus.html#NModbus_Extensions_Enron_EnronModbus_WriteSingleRegister32_NModbus_IModbusMaster_System_Byte_System_UInt16_System_UInt32_">EnronModbus.WriteSingleRegister32(IModbusMaster, Byte, UInt16, UInt32)</a>
+  </div>
+  <div>
+      <a class="xref" href="NModbus.Extensions.Enron.EnronModbus.html#NModbus_Extensions_Enron_EnronModbus_WriteMultipleRegisters32_NModbus_IModbusMaster_System_Byte_System_UInt16_System_UInt32___">EnronModbus.WriteMultipleRegisters32(IModbusMaster, Byte, UInt16, UInt32[])</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/NModbus/NModbus/new/develop/apiSpec/new?filename=NModbus_IModbusMaster.md&amp;value=---%0Auid%3A%20NModbus.IModbusMaster%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/NModbus/NModbus/blob/develop/NModbus/Interfaces/IModbusMaster.cs/#L9" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Copyright © 2015-2017 Microsoft<br>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

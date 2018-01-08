@@ -1,0 +1,439 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class ModbusSerialTransport
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class ModbusSerialTransport
+   ">
+    <meta name="generator" content="docfx 2.29.1.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="NModbus.IO.ModbusSerialTransport">
+  
+  
+  <h1 id="NModbus_IO_ModbusSerialTransport" data-uid="NModbus.IO.ModbusSerialTransport" class="text-break">Class ModbusSerialTransport
+  </h1>
+  <div class="markdown level0 summary"><p>Transport for Serial protocols.
+Refined Abstraction - <a href="http://en.wikipedia.org/wiki/Bridge_Pattern">http://en.wikipedia.org/wiki/Bridge_Pattern</a></p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="NModbus.IO.ModbusTransport.html">ModbusTransport</a></div>
+    <div class="level2"><span class="xref">ModbusSerialTransport</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="NModbus.IModbusSerialTransport.html">IModbusSerialTransport</a></div>
+    <div><a class="xref" href="NModbus.IModbusTransport.html">IModbusTransport</a></div>
+    <div><span class="xref">System.IDisposable</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="NModbus.IO.ModbusTransport.html#NModbus_IO_ModbusTransport_Retries">ModbusTransport.Retries</a>
+    </div>
+    <div>
+      <a class="xref" href="NModbus.IO.ModbusTransport.html#NModbus_IO_ModbusTransport_RetryOnOldResponseThreshold">ModbusTransport.RetryOnOldResponseThreshold</a>
+    </div>
+    <div>
+      <a class="xref" href="NModbus.IO.ModbusTransport.html#NModbus_IO_ModbusTransport_SlaveBusyUsesRetryCount">ModbusTransport.SlaveBusyUsesRetryCount</a>
+    </div>
+    <div>
+      <a class="xref" href="NModbus.IO.ModbusTransport.html#NModbus_IO_ModbusTransport_WaitToRetryMilliseconds">ModbusTransport.WaitToRetryMilliseconds</a>
+    </div>
+    <div>
+      <a class="xref" href="NModbus.IO.ModbusTransport.html#NModbus_IO_ModbusTransport_ReadTimeout">ModbusTransport.ReadTimeout</a>
+    </div>
+    <div>
+      <a class="xref" href="NModbus.IO.ModbusTransport.html#NModbus_IO_ModbusTransport_WriteTimeout">ModbusTransport.WriteTimeout</a>
+    </div>
+    <div>
+      <a class="xref" href="NModbus.IO.ModbusTransport.html#NModbus_IO_ModbusTransport_StreamResource">ModbusTransport.StreamResource</a>
+    </div>
+    <div>
+      <a class="xref" href="NModbus.IO.ModbusTransport.html#NModbus_IO_ModbusTransport_Logger">ModbusTransport.Logger</a>
+    </div>
+    <div>
+      <a class="xref" href="NModbus.IO.ModbusTransport.html#NModbus_IO_ModbusTransport_Dispose">ModbusTransport.Dispose()</a>
+    </div>
+    <div>
+      <a class="xref" href="NModbus.IO.ModbusTransport.html#NModbus_IO_ModbusTransport_UnicastMessage__1_NModbus_IModbusMessage_">ModbusTransport.UnicastMessage&lt;T&gt;(IModbusMessage)</a>
+    </div>
+    <div>
+      <a class="xref" href="NModbus.IO.ModbusTransport.html#NModbus_IO_ModbusTransport_ValidateResponse_NModbus_IModbusMessage_NModbus_IModbusMessage_">ModbusTransport.ValidateResponse(IModbusMessage, IModbusMessage)</a>
+    </div>
+    <div>
+      <a class="xref" href="NModbus.IO.ModbusTransport.html#NModbus_IO_ModbusTransport_ShouldRetryResponse_NModbus_IModbusMessage_NModbus_IModbusMessage_">ModbusTransport.ShouldRetryResponse(IModbusMessage, IModbusMessage)</a>
+    </div>
+    <div>
+      <a class="xref" href="NModbus.IO.ModbusTransport.html#NModbus_IO_ModbusTransport_OnShouldRetryResponse_NModbus_IModbusMessage_NModbus_IModbusMessage_">ModbusTransport.OnShouldRetryResponse(IModbusMessage, IModbusMessage)</a>
+    </div>
+    <div>
+      <a class="xref" href="NModbus.IO.ModbusTransport.html#NModbus_IO_ModbusTransport_ReadRequest">ModbusTransport.ReadRequest()</a>
+    </div>
+    <div>
+      <a class="xref" href="NModbus.IO.ModbusTransport.html#NModbus_IO_ModbusTransport_ReadResponse__1">ModbusTransport.ReadResponse&lt;T&gt;()</a>
+    </div>
+    <div>
+      <a class="xref" href="NModbus.IO.ModbusTransport.html#NModbus_IO_ModbusTransport_BuildMessageFrame_NModbus_IModbusMessage_">ModbusTransport.BuildMessageFrame(IModbusMessage)</a>
+    </div>
+    <div>
+      <a class="xref" href="NModbus.IO.ModbusTransport.html#NModbus_IO_ModbusTransport_Dispose_System_Boolean_">ModbusTransport.Dispose(Boolean)</a>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="NModbus.IO.html">NModbus.IO</a></h6>
+  <h6><strong>Assembly</strong>: NModbus.dll</h6>
+  <h5 id="NModbus_IO_ModbusSerialTransport_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract class ModbusSerialTransport : ModbusTransport, IModbusSerialTransport, IModbusTransport, IDisposable</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/NModbus/NModbus/new/develop/apiSpec/new?filename=NModbus_IO_ModbusSerialTransport_CheckFrame.md&amp;value=---%0Auid%3A%20NModbus.IO.ModbusSerialTransport.CheckFrame%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/NModbus/NModbus/blob/develop/NModbus/IO/ModbusSerialTransport.cs/#L25">View Source</a>
+  </span>
+  <a id="NModbus_IO_ModbusSerialTransport_CheckFrame_" data-uid="NModbus.IO.ModbusSerialTransport.CheckFrame*"></a>
+  <h4 id="NModbus_IO_ModbusSerialTransport_CheckFrame" data-uid="NModbus.IO.ModbusSerialTransport.CheckFrame">CheckFrame</h4>
+  <div class="markdown level1 summary"><p>Gets or sets a value indicating whether LRC/CRC frame checking is performed on messages.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool CheckFrame { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/NModbus/NModbus/new/develop/apiSpec/new?filename=NModbus_IO_ModbusSerialTransport_ChecksumsMatch_NModbus_IModbusMessage_System_Byte___.md&amp;value=---%0Auid%3A%20NModbus.IO.ModbusSerialTransport.ChecksumsMatch(NModbus.IModbusMessage%2CSystem.Byte%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/NModbus/NModbus/blob/develop/NModbus/IO/ModbusSerialTransport.cs/#L64">View Source</a>
+  </span>
+  <a id="NModbus_IO_ModbusSerialTransport_ChecksumsMatch_" data-uid="NModbus.IO.ModbusSerialTransport.ChecksumsMatch*"></a>
+  <h4 id="NModbus_IO_ModbusSerialTransport_ChecksumsMatch_NModbus_IModbusMessage_System_Byte___" data-uid="NModbus.IO.ModbusSerialTransport.ChecksumsMatch(NModbus.IModbusMessage,System.Byte[])">ChecksumsMatch(IModbusMessage, Byte[])</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract bool ChecksumsMatch(IModbusMessage message, byte[] messageFrame)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NModbus.IModbusMessage.html">IModbusMessage</a></td>
+        <td><span class="parametername">message</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">messageFrame</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/NModbus/NModbus/new/develop/apiSpec/new?filename=NModbus_IO_ModbusSerialTransport_CreateResponse__1_System_Byte___.md&amp;value=---%0Auid%3A%20NModbus.IO.ModbusSerialTransport.CreateResponse%60%601(System.Byte%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/NModbus/NModbus/blob/develop/NModbus/IO/ModbusSerialTransport.cs/#L47">View Source</a>
+  </span>
+  <a id="NModbus_IO_ModbusSerialTransport_CreateResponse_" data-uid="NModbus.IO.ModbusSerialTransport.CreateResponse*"></a>
+  <h4 id="NModbus_IO_ModbusSerialTransport_CreateResponse__1_System_Byte___" data-uid="NModbus.IO.ModbusSerialTransport.CreateResponse``1(System.Byte[])">CreateResponse&lt;T&gt;(Byte[])</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override IModbusMessage CreateResponse&lt;T&gt;(byte[] frame)where T : IModbusMessage, new ()</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">frame</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NModbus.IModbusMessage.html">IModbusMessage</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="NModbus.IO.ModbusTransport.html#NModbus_IO_ModbusTransport_CreateResponse__1_System_Byte___">ModbusTransport.CreateResponse&lt;T&gt;(Byte[])</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/NModbus/NModbus/new/develop/apiSpec/new?filename=NModbus_IO_ModbusSerialTransport_DiscardInBuffer.md&amp;value=---%0Auid%3A%20NModbus.IO.ModbusSerialTransport.DiscardInBuffer%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/NModbus/NModbus/blob/develop/NModbus/IO/ModbusSerialTransport.cs/#L31">View Source</a>
+  </span>
+  <a id="NModbus_IO_ModbusSerialTransport_DiscardInBuffer_" data-uid="NModbus.IO.ModbusSerialTransport.DiscardInBuffer*"></a>
+  <h4 id="NModbus_IO_ModbusSerialTransport_DiscardInBuffer" data-uid="NModbus.IO.ModbusSerialTransport.DiscardInBuffer">DiscardInBuffer()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void DiscardInBuffer()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/NModbus/NModbus/new/develop/apiSpec/new?filename=NModbus_IO_ModbusSerialTransport_IgnoreResponse.md&amp;value=---%0Auid%3A%20NModbus.IO.ModbusSerialTransport.IgnoreResponse%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/NModbus/NModbus/blob/develop/NModbus/IO/ModbusSerialTransport.cs/#L62">View Source</a>
+  </span>
+  <a id="NModbus_IO_ModbusSerialTransport_IgnoreResponse_" data-uid="NModbus.IO.ModbusSerialTransport.IgnoreResponse*"></a>
+  <h4 id="NModbus_IO_ModbusSerialTransport_IgnoreResponse" data-uid="NModbus.IO.ModbusSerialTransport.IgnoreResponse">IgnoreResponse()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract void IgnoreResponse()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/NModbus/NModbus/new/develop/apiSpec/new?filename=NModbus_IO_ModbusSerialTransport_Write_NModbus_IModbusMessage_.md&amp;value=---%0Auid%3A%20NModbus.IO.ModbusSerialTransport.Write(NModbus.IModbusMessage)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/NModbus/NModbus/blob/develop/NModbus/IO/ModbusSerialTransport.cs/#L36">View Source</a>
+  </span>
+  <a id="NModbus_IO_ModbusSerialTransport_Write_" data-uid="NModbus.IO.ModbusSerialTransport.Write*"></a>
+  <h4 id="NModbus_IO_ModbusSerialTransport_Write_NModbus_IModbusMessage_" data-uid="NModbus.IO.ModbusSerialTransport.Write(NModbus.IModbusMessage)">Write(IModbusMessage)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Write(IModbusMessage message)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NModbus.IModbusMessage.html">IModbusMessage</a></td>
+        <td><span class="parametername">message</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="NModbus.IO.ModbusTransport.html#NModbus_IO_ModbusTransport_Write_NModbus_IModbusMessage_">ModbusTransport.Write(IModbusMessage)</a></div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="NModbus.IModbusSerialTransport.html">IModbusSerialTransport</a>
+  </div>
+  <div>
+      <a class="xref" href="NModbus.IModbusTransport.html">IModbusTransport</a>
+  </div>
+  <div>
+      <span class="xref">System.IDisposable</span>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/NModbus/NModbus/new/develop/apiSpec/new?filename=NModbus_IO_ModbusSerialTransport.md&amp;value=---%0Auid%3A%20NModbus.IO.ModbusSerialTransport%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/NModbus/NModbus/blob/develop/NModbus/IO/ModbusSerialTransport.cs/#L12" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Copyright © 2015-2017 Microsoft<br>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,143 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>NModbus </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="NModbus ">
+    <meta name="generator" content="docfx 2.29.1.0">
+    
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles/docfx.vendor.css">
+    <link rel="stylesheet" href="styles/docfx.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <meta property="docfx:navrel" content="">
+    <meta property="docfx:tocrel" content="">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="index.html">
+                <img id="logo" class="svg" src="logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        <div class="article row grid">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="nmodbus">NModbus</h1>
+
+<table>
+<thead>
+<tr>
+<th></th>
+<th style="text-align:center">Build Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>MS .NET</strong></td>
+<td style="text-align:center"><a href="https://ci.appveyor.com/project/nmodbus/nmodbus/branch/NetworkedSlave"><img src="https://ci.appveyor.com/api/projects/status/a4r06a0owl6xf9ar/branch/NetworkedSlave?svg=true" alt="Build status"></a></td>
+</tr>
+</tbody>
+</table>
+<p>NModbus is a C# implementation of the Modbus protocol.
+Provides connectivity to Modbus slave compatible devices and applications.
+Supports serial ASCII, serial RTU, TCP, and UDP protocols.</p>
+<h1 id="history">History</h1>
+<p>The NModbus4 project appears to have gone quiet. This is a fork of that project.</p>
+<ul>
+<li>NModbus is a fork of NModbus4 (<a href="https://github.com/NModbus4/NModbus4">https://github.com/NModbus4/NModbus4</a>).</li>
+<li>NModbus4 is fork of NModbus(<a href="https://code.google.com/p/nmodbus">https://code.google.com/p/nmodbus</a>).</li>
+</ul>
+<p>NModbus differs from NModbus4 in following:</p>
+<ul>
+<li>Modbus slave devices are now added to a network which is represented by <code>IModbusSlaveInstance</code>.</li>
+<li>Heavier use of interfaces.</li>
+<li>Custom function code handlers can be added to slave devices.</li>
+</ul>
+<h1 id="goals">Goals</h1>
+<ul>
+<li>Improve Modbus Slave support (e.g. support multiple slave devices on the same physical transport).</li>
+</ul>
+<h1 id="install">Install</h1>
+<p>To install NModbus, run the following command in the Package Manager Console</p>
+<pre><code>PM&gt; Install-Package NModbus
+</code></pre><h1 id="documentation">Documentation</h1>
+<p>Documentation is available in chm format (NModbus.chm)</p>
+<h1 id="license">License</h1>
+<p>NModbus is licensed under the <a href="LICENSE.txt">MIT license</a>.</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/NModbus/NModbus/blob/develop/README.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Copyright © 2015-2017 Microsoft<br>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="styles/docfx.js"></script>
+    <script type="text/javascript" src="styles/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,707 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Interface IModbusFactory
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Interface IModbusFactory
+   ">
+    <meta name="generator" content="docfx 2.29.1.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="NModbus.IModbusFactory">
+  
+  
+  <h1 id="NModbus_IModbusFactory" data-uid="NModbus.IModbusFactory" class="text-break">Interface IModbusFactory
+  </h1>
+  <div class="markdown level0 summary"><p>Container for modbus function services.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="NModbus.html">NModbus</a></h6>
+  <h6><strong>Assembly</strong>: NModbus.dll</h6>
+  <h5 id="NModbus_IModbusFactory_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface IModbusFactory</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/NModbus/NModbus/new/develop/apiSpec/new?filename=NModbus_IModbusFactory_CreateAsciiTransport_NModbus_IO_IStreamResource_.md&amp;value=---%0Auid%3A%20NModbus.IModbusFactory.CreateAsciiTransport(NModbus.IO.IStreamResource)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/NModbus/NModbus/blob/develop/NModbus/Interfaces/IModbusFactory.cs/#L107">View Source</a>
+  </span>
+  <a id="NModbus_IModbusFactory_CreateAsciiTransport_" data-uid="NModbus.IModbusFactory.CreateAsciiTransport*"></a>
+  <h4 id="NModbus_IModbusFactory_CreateAsciiTransport_NModbus_IO_IStreamResource_" data-uid="NModbus.IModbusFactory.CreateAsciiTransport(NModbus.IO.IStreamResource)">CreateAsciiTransport(IStreamResource)</h4>
+  <div class="markdown level1 summary"><p>Creates an Ascii Transport.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IModbusAsciiTransport CreateAsciiTransport(IStreamResource streamResource)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NModbus.IO.IStreamResource.html">IStreamResource</a></td>
+        <td><span class="parametername">streamResource</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NModbus.IModbusAsciiTransport.html">IModbusAsciiTransport</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/NModbus/NModbus/new/develop/apiSpec/new?filename=NModbus_IModbusFactory_CreateMaster_NModbus_IModbusSerialTransport_.md&amp;value=---%0Auid%3A%20NModbus.IModbusFactory.CreateMaster(NModbus.IModbusSerialTransport)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/NModbus/NModbus/blob/develop/NModbus/Interfaces/IModbusFactory.cs/#L31">View Source</a>
+  </span>
+  <a id="NModbus_IModbusFactory_CreateMaster_" data-uid="NModbus.IModbusFactory.CreateMaster*"></a>
+  <h4 id="NModbus_IModbusFactory_CreateMaster_NModbus_IModbusSerialTransport_" data-uid="NModbus.IModbusFactory.CreateMaster(NModbus.IModbusSerialTransport)">CreateMaster(IModbusSerialTransport)</h4>
+  <div class="markdown level1 summary"><p>Create an rtu master.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IModbusSerialMaster CreateMaster(IModbusSerialTransport transport)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NModbus.IModbusSerialTransport.html">IModbusSerialTransport</a></td>
+        <td><span class="parametername">transport</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NModbus.IModbusSerialMaster.html">IModbusSerialMaster</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/NModbus/NModbus/new/develop/apiSpec/new?filename=NModbus_IModbusFactory_CreateMaster_System_Net_Sockets_TcpClient_.md&amp;value=---%0Auid%3A%20NModbus.IModbusFactory.CreateMaster(System.Net.Sockets.TcpClient)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/NModbus/NModbus/blob/develop/NModbus/Interfaces/IModbusFactory.cs/#L45">View Source</a>
+  </span>
+  <a id="NModbus_IModbusFactory_CreateMaster_" data-uid="NModbus.IModbusFactory.CreateMaster*"></a>
+  <h4 id="NModbus_IModbusFactory_CreateMaster_System_Net_Sockets_TcpClient_" data-uid="NModbus.IModbusFactory.CreateMaster(System.Net.Sockets.TcpClient)">CreateMaster(TcpClient)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IModbusMaster CreateMaster(TcpClient client)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Net.Sockets.TcpClient</span></td>
+        <td><span class="parametername">client</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NModbus.IModbusMaster.html">IModbusMaster</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/NModbus/NModbus/new/develop/apiSpec/new?filename=NModbus_IModbusFactory_CreateMaster_System_Net_Sockets_UdpClient_.md&amp;value=---%0Auid%3A%20NModbus.IModbusFactory.CreateMaster(System.Net.Sockets.UdpClient)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/NModbus/NModbus/blob/develop/NModbus/Interfaces/IModbusFactory.cs/#L38">View Source</a>
+  </span>
+  <a id="NModbus_IModbusFactory_CreateMaster_" data-uid="NModbus.IModbusFactory.CreateMaster*"></a>
+  <h4 id="NModbus_IModbusFactory_CreateMaster_System_Net_Sockets_UdpClient_" data-uid="NModbus.IModbusFactory.CreateMaster(System.Net.Sockets.UdpClient)">CreateMaster(UdpClient)</h4>
+  <div class="markdown level1 summary"><p>Create a TCP master.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IModbusMaster CreateMaster(UdpClient client)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Net.Sockets.UdpClient</span></td>
+        <td><span class="parametername">client</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NModbus.IModbusMaster.html">IModbusMaster</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/NModbus/NModbus/new/develop/apiSpec/new?filename=NModbus_IModbusFactory_CreateRtuTransport_NModbus_IO_IStreamResource_.md&amp;value=---%0Auid%3A%20NModbus.IModbusFactory.CreateRtuTransport(NModbus.IO.IStreamResource)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/NModbus/NModbus/blob/develop/NModbus/Interfaces/IModbusFactory.cs/#L100">View Source</a>
+  </span>
+  <a id="NModbus_IModbusFactory_CreateRtuTransport_" data-uid="NModbus.IModbusFactory.CreateRtuTransport*"></a>
+  <h4 id="NModbus_IModbusFactory_CreateRtuTransport_NModbus_IO_IStreamResource_" data-uid="NModbus.IModbusFactory.CreateRtuTransport(NModbus.IO.IStreamResource)">CreateRtuTransport(IStreamResource)</h4>
+  <div class="markdown level1 summary"><p>Creates an RTU transpoort. </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IModbusRtuTransport CreateRtuTransport(IStreamResource streamResource)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NModbus.IO.IStreamResource.html">IStreamResource</a></td>
+        <td><span class="parametername">streamResource</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NModbus.IModbusRtuTransport.html">IModbusRtuTransport</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/NModbus/NModbus/new/develop/apiSpec/new?filename=NModbus_IModbusFactory_CreateSlave_System_Byte_NModbus_ISlaveDataStore_.md&amp;value=---%0Auid%3A%20NModbus.IModbusFactory.CreateSlave(System.Byte%2CNModbus.ISlaveDataStore)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/NModbus/NModbus/blob/develop/NModbus/Interfaces/IModbusFactory.cs/#L57">View Source</a>
+  </span>
+  <a id="NModbus_IModbusFactory_CreateSlave_" data-uid="NModbus.IModbusFactory.CreateSlave*"></a>
+  <h4 id="NModbus_IModbusFactory_CreateSlave_System_Byte_NModbus_ISlaveDataStore_" data-uid="NModbus.IModbusFactory.CreateSlave(System.Byte,NModbus.ISlaveDataStore)">CreateSlave(Byte, ISlaveDataStore)</h4>
+  <div class="markdown level1 summary"><p>Creates a Modbus Slave.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IModbusSlave CreateSlave(byte unitId, ISlaveDataStore dataStore = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span></td>
+        <td><span class="parametername">unitId</span></td>
+        <td><p>The address of this slave on the Modbus network.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="NModbus.ISlaveDataStore.html">ISlaveDataStore</a></td>
+        <td><span class="parametername">dataStore</span></td>
+        <td><p>Optionally specify a custom data store for the created slave.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NModbus.IModbusSlave.html">IModbusSlave</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/NModbus/NModbus/new/develop/apiSpec/new?filename=NModbus_IModbusFactory_CreateSlaveNetwork_NModbus_IModbusAsciiTransport_.md&amp;value=---%0Auid%3A%20NModbus.IModbusFactory.CreateSlaveNetwork(NModbus.IModbusAsciiTransport)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/NModbus/NModbus/blob/develop/NModbus/Interfaces/IModbusFactory.cs/#L75">View Source</a>
+  </span>
+  <a id="NModbus_IModbusFactory_CreateSlaveNetwork_" data-uid="NModbus.IModbusFactory.CreateSlaveNetwork*"></a>
+  <h4 id="NModbus_IModbusFactory_CreateSlaveNetwork_NModbus_IModbusAsciiTransport_" data-uid="NModbus.IModbusFactory.CreateSlaveNetwork(NModbus.IModbusAsciiTransport)">CreateSlaveNetwork(IModbusAsciiTransport)</h4>
+  <div class="markdown level1 summary"><p>Creates an ascii slave network.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IModbusSlaveNetwork CreateSlaveNetwork(IModbusAsciiTransport transport)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NModbus.IModbusAsciiTransport.html">IModbusAsciiTransport</a></td>
+        <td><span class="parametername">transport</span></td>
+        <td><p>The ascii transport to base this on.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NModbus.IModbusSlaveNetwork.html">IModbusSlaveNetwork</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/NModbus/NModbus/new/develop/apiSpec/new?filename=NModbus_IModbusFactory_CreateSlaveNetwork_NModbus_IModbusRtuTransport_.md&amp;value=---%0Auid%3A%20NModbus.IModbusFactory.CreateSlaveNetwork(NModbus.IModbusRtuTransport)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/NModbus/NModbus/blob/develop/NModbus/Interfaces/IModbusFactory.cs/#L68">View Source</a>
+  </span>
+  <a id="NModbus_IModbusFactory_CreateSlaveNetwork_" data-uid="NModbus.IModbusFactory.CreateSlaveNetwork*"></a>
+  <h4 id="NModbus_IModbusFactory_CreateSlaveNetwork_NModbus_IModbusRtuTransport_" data-uid="NModbus.IModbusFactory.CreateSlaveNetwork(NModbus.IModbusRtuTransport)">CreateSlaveNetwork(IModbusRtuTransport)</h4>
+  <div class="markdown level1 summary"><p>Creates a slave network based on the RTU transport.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IModbusSlaveNetwork CreateSlaveNetwork(IModbusRtuTransport transport)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NModbus.IModbusRtuTransport.html">IModbusRtuTransport</a></td>
+        <td><span class="parametername">transport</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NModbus.IModbusSlaveNetwork.html">IModbusSlaveNetwork</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/NModbus/NModbus/new/develop/apiSpec/new?filename=NModbus_IModbusFactory_CreateSlaveNetwork_System_Net_Sockets_TcpListener_.md&amp;value=---%0Auid%3A%20NModbus.IModbusFactory.CreateSlaveNetwork(System.Net.Sockets.TcpListener)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/NModbus/NModbus/blob/develop/NModbus/Interfaces/IModbusFactory.cs/#L82">View Source</a>
+  </span>
+  <a id="NModbus_IModbusFactory_CreateSlaveNetwork_" data-uid="NModbus.IModbusFactory.CreateSlaveNetwork*"></a>
+  <h4 id="NModbus_IModbusFactory_CreateSlaveNetwork_System_Net_Sockets_TcpListener_" data-uid="NModbus.IModbusFactory.CreateSlaveNetwork(System.Net.Sockets.TcpListener)">CreateSlaveNetwork(TcpListener)</h4>
+  <div class="markdown level1 summary"><p>Create a slave network based on TCP.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IModbusSlaveNetwork CreateSlaveNetwork(TcpListener tcpListener)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Net.Sockets.TcpListener</span></td>
+        <td><span class="parametername">tcpListener</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NModbus.IModbusSlaveNetwork.html">IModbusSlaveNetwork</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/NModbus/NModbus/new/develop/apiSpec/new?filename=NModbus_IModbusFactory_CreateSlaveNetwork_System_Net_Sockets_UdpClient_.md&amp;value=---%0Auid%3A%20NModbus.IModbusFactory.CreateSlaveNetwork(System.Net.Sockets.UdpClient)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/NModbus/NModbus/blob/develop/NModbus/Interfaces/IModbusFactory.cs/#L89">View Source</a>
+  </span>
+  <a id="NModbus_IModbusFactory_CreateSlaveNetwork_" data-uid="NModbus.IModbusFactory.CreateSlaveNetwork*"></a>
+  <h4 id="NModbus_IModbusFactory_CreateSlaveNetwork_System_Net_Sockets_UdpClient_" data-uid="NModbus.IModbusFactory.CreateSlaveNetwork(System.Net.Sockets.UdpClient)">CreateSlaveNetwork(UdpClient)</h4>
+  <div class="markdown level1 summary"><p>Creates a UDP modbus slave network.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IModbusSlaveNetwork CreateSlaveNetwork(UdpClient client)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Net.Sockets.UdpClient</span></td>
+        <td><span class="parametername">client</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NModbus.IModbusSlaveNetwork.html">IModbusSlaveNetwork</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/NModbus/NModbus/new/develop/apiSpec/new?filename=NModbus_IModbusFactory_GetAllFunctionServices.md&amp;value=---%0Auid%3A%20NModbus.IModbusFactory.GetAllFunctionServices%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/NModbus/NModbus/blob/develop/NModbus/Interfaces/IModbusFactory.cs/#L22">View Source</a>
+  </span>
+  <a id="NModbus_IModbusFactory_GetAllFunctionServices_" data-uid="NModbus.IModbusFactory.GetAllFunctionServices*"></a>
+  <h4 id="NModbus_IModbusFactory_GetAllFunctionServices" data-uid="NModbus.IModbusFactory.GetAllFunctionServices">GetAllFunctionServices()</h4>
+  <div class="markdown level1 summary"><p>Gets all of the services.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IModbusFunctionService[] GetAllFunctionServices()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NModbus.IModbusFunctionService.html">IModbusFunctionService</a>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/NModbus/NModbus/new/develop/apiSpec/new?filename=NModbus_IModbusFactory_GetFunctionService_System_Byte_.md&amp;value=---%0Auid%3A%20NModbus.IModbusFactory.GetFunctionService(System.Byte)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/NModbus/NModbus/blob/develop/NModbus/Interfaces/IModbusFactory.cs/#L16">View Source</a>
+  </span>
+  <a id="NModbus_IModbusFactory_GetFunctionService_" data-uid="NModbus.IModbusFactory.GetFunctionService*"></a>
+  <h4 id="NModbus_IModbusFactory_GetFunctionService_System_Byte_" data-uid="NModbus.IModbusFactory.GetFunctionService(System.Byte)">GetFunctionService(Byte)</h4>
+  <div class="markdown level1 summary"><p>Get the service for a given function code.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IModbusFunctionService GetFunctionService(byte functionCode)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span></td>
+        <td><span class="parametername">functionCode</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NModbus.IModbusFunctionService.html">IModbusFunctionService</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="NModbus.FactoryExtensions.html#NModbus_FactoryExtensions_CreateRtuMaster_NModbus_IModbusFactory_NModbus_IO_IStreamResource_">FactoryExtensions.CreateRtuMaster(IModbusFactory, IStreamResource)</a>
+  </div>
+  <div>
+      <a class="xref" href="NModbus.FactoryExtensions.html#NModbus_FactoryExtensions_CreateAsciiMaster_NModbus_IModbusFactory_NModbus_IO_IStreamResource_">FactoryExtensions.CreateAsciiMaster(IModbusFactory, IStreamResource)</a>
+  </div>
+  <div>
+      <a class="xref" href="NModbus.FactoryExtensions.html#NModbus_FactoryExtensions_CreateRtuSlaveNetwork_NModbus_IModbusFactory_NModbus_IO_IStreamResource_">FactoryExtensions.CreateRtuSlaveNetwork(IModbusFactory, IStreamResource)</a>
+  </div>
+  <div>
+      <a class="xref" href="NModbus.FactoryExtensions.html#NModbus_FactoryExtensions_CreateAsciiSlaveNetwork_NModbus_IModbusFactory_NModbus_IO_IStreamResource_">FactoryExtensions.CreateAsciiSlaveNetwork(IModbusFactory, IStreamResource)</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/NModbus/NModbus/new/develop/apiSpec/new?filename=NModbus_IModbusFactory.md&amp;value=---%0Auid%3A%20NModbus.IModbusFactory%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/NModbus/NModbus/blob/develop/NModbus/Interfaces/IModbusFactory.cs/#L9" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Copyright © 2015-2017 Microsoft<br>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

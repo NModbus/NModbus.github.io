@@ -1,0 +1,755 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/GIT/NModbus/NModbus.Serial",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "../README.md",
+      "output": {
+        ".html": {
+          "relative_path": "README.html",
+          "hash": "8hHjy1oQ3sHeF6A+5gb0Ew=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NModbus.Data.IModbusMessageDataCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NModbus.Data.IModbusMessageDataCollection.html",
+          "hash": "O8VaU0urncnCggugeD/M4Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NModbus.Data.PointSource-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NModbus.Data.PointSource-1.html",
+          "hash": "VRoUQc2rVD5IgSy3k45ZQA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NModbus.Data.SlaveDataStore.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NModbus.Data.SlaveDataStore.html",
+          "hash": "9Klcz366w1/okaN6q5m+NQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NModbus.Data.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NModbus.Data.html",
+          "hash": "Za5jo0kFJxB/sgbxFDhO+Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NModbus.Device.PointEventArgs-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NModbus.Device.PointEventArgs-1.html",
+          "hash": "u8SpvJ7Z3JniOXwjOYUkjA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NModbus.Device.PointEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NModbus.Device.PointEventArgs.html",
+          "hash": "x/HtIEbSfAV/kMnx/ahpLg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NModbus.Device.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NModbus.Device.html",
+          "hash": "ylb+LrLmI9j9V3ztq1HFgg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NModbus.Extensions.CrcExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NModbus.Extensions.CrcExtensions.html",
+          "hash": "N3jXNwGWJJyroRTjE6t4NQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NModbus.Extensions.Enron.EnronModbus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NModbus.Extensions.Enron.EnronModbus.html",
+          "hash": "RIUU18RbTZG/tHFwGcuvXQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NModbus.Extensions.Enron.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NModbus.Extensions.Enron.html",
+          "hash": "fjio/aAKq7Iy+P2giDqB5w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NModbus.Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NModbus.Extensions.html",
+          "hash": "7mN6vHAjaxLJsb61/IXtlA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NModbus.FactoryExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NModbus.FactoryExtensions.html",
+          "hash": "Op1QqwH9GnAO5/4jihQXKQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NModbus.IModbusAsciiTransport.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NModbus.IModbusAsciiTransport.html",
+          "hash": "4/kP3Eb4ygU6D7PLwWb83g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NModbus.IModbusFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NModbus.IModbusFactory.html",
+          "hash": "arOSuxGnOw4WJP6Mmn21DQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NModbus.IModbusFunctionService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NModbus.IModbusFunctionService.html",
+          "hash": "pWLNL6d2pPOZgPlogm2zcw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NModbus.IModbusLogger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NModbus.IModbusLogger.html",
+          "hash": "1LYyzo2hfgmVOIugYhENLw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NModbus.IModbusMaster.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NModbus.IModbusMaster.html",
+          "hash": "uGpMakbMniJwc3Da5JmLcg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NModbus.IModbusMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NModbus.IModbusMessage.html",
+          "hash": "6GBr8rpZb5u8Hi/D3eQGfQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NModbus.IModbusRtuTransport.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NModbus.IModbusRtuTransport.html",
+          "hash": "Ad/ZzzzOHM5/Dsh/uaMEnQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NModbus.IModbusSerialMaster.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NModbus.IModbusSerialMaster.html",
+          "hash": "tm0BCqaKynKVCFly7iPl4Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NModbus.IModbusSerialTransport.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NModbus.IModbusSerialTransport.html",
+          "hash": "namnWpWk9rl6FGaxV+suWg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NModbus.IModbusSlave.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NModbus.IModbusSlave.html",
+          "hash": "kO5oFigHrgQ2pygkwkacaw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NModbus.IModbusSlaveNetwork.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NModbus.IModbusSlaveNetwork.html",
+          "hash": "xliG9tyqJccKHa0JL6ZuuA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NModbus.IModbusTransport.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NModbus.IModbusTransport.html",
+          "hash": "8LJDoenxI2GHNQieZ2x4Og=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NModbus.IO.IStreamResource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NModbus.IO.IStreamResource.html",
+          "hash": "gaAyllawT6Y7p1hDlc+sSw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NModbus.IO.ModbusSerialTransport.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NModbus.IO.ModbusSerialTransport.html",
+          "hash": "YjKPy5/eNB0c7UOZkUx2Hw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NModbus.IO.ModbusTransport.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NModbus.IO.ModbusTransport.html",
+          "hash": "VWeqsmJ1b3NScFie8jIPyQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NModbus.IO.TcpClientAdapter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NModbus.IO.TcpClientAdapter.html",
+          "hash": "3YqvmOE6m2iZcgxdFO6IoA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NModbus.IO.UdpClientAdapter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NModbus.IO.UdpClientAdapter.html",
+          "hash": "ZTtVYFQNMggYTKDdxvotBQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NModbus.IO.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NModbus.IO.html",
+          "hash": "B1cnPB7eIg/PAsySYlqXQw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NModbus.IPointSource-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NModbus.IPointSource-1.html",
+          "hash": "O+HsK2hJ7a3UoRD9hJKgtg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NModbus.ISlaveDataStore.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NModbus.ISlaveDataStore.html",
+          "hash": "NxFns8/RQqeTrKqsI7Ds4A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NModbus.ISlaveHandlerContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NModbus.ISlaveHandlerContext.html",
+          "hash": "08HFZwCVIdn0C+KApsQ7Gg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NModbus.InvalidModbusRequestException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NModbus.InvalidModbusRequestException.html",
+          "hash": "fvLZMPc3j9C7t2zaj9J9Yw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NModbus.Logging.DebugModbusLogger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NModbus.Logging.DebugModbusLogger.html",
+          "hash": "YT+X84ybD6YO0W2uASB2bg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NModbus.Logging.LoggingExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NModbus.Logging.LoggingExtensions.html",
+          "hash": "ne1cCleFi0lk9b16j9S+bg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NModbus.Logging.ModbusLogger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NModbus.Logging.ModbusLogger.html",
+          "hash": "OmnZ7lhiYQvdNt0odB6ZdQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NModbus.Logging.NullModbusLogger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NModbus.Logging.NullModbusLogger.html",
+          "hash": "pwjEDhGyGuEjgSfNvzF7Bg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NModbus.Logging.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NModbus.Logging.html",
+          "hash": "fEyfvVwcLlPy6wjFyHRwRg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NModbus.LoggingLevel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NModbus.LoggingLevel.html",
+          "hash": "iAJKpVeDYHB4S6k1/Rc2rg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NModbus.Message.IModbusRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NModbus.Message.IModbusRequest.html",
+          "hash": "KJCKpkJ6Azj/b0fEFGO6YQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NModbus.Message.ModbusMessageFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NModbus.Message.ModbusMessageFactory.html",
+          "hash": "0fM/jaBv8AYONhhF107u5A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NModbus.Message.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NModbus.Message.html",
+          "hash": "pGdVwnQjR4k0+lcHAptKQg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NModbus.ModbusFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NModbus.ModbusFactory.html",
+          "hash": "ULZuDQjKAtoaEKxA9gYdsA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NModbus.ModbusFunctionCodes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NModbus.ModbusFunctionCodes.html",
+          "hash": "of0IMtLH24Mdm7f7z5PgpQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NModbus.Serial.SerialDeviceAdapter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NModbus.Serial.SerialDeviceAdapter.html",
+          "hash": "HX7uUZsQoJVCOHHkWzVFng=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NModbus.Serial.SerialPortAdapter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NModbus.Serial.SerialPortAdapter.html",
+          "hash": "WjyhMH9N+5WxAMnEKey90A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NModbus.Serial.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NModbus.Serial.html",
+          "hash": "Ipry/2GfMFRh6au7JhBTbw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NModbus.SerialPortStream.SerialPortStreamAdapter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NModbus.SerialPortStream.SerialPortStreamAdapter.html",
+          "hash": "wNnoUrHdIrcygclrkljlvA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NModbus.SerialPortStream.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NModbus.SerialPortStream.html",
+          "hash": "zDeubG3b8uwWj/BgnOuu/A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NModbus.SlaveException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NModbus.SlaveException.html",
+          "hash": "ttHdN/Rr7W3Af3/587GGCQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NModbus.SlaveExceptionCodes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NModbus.SlaveExceptionCodes.html",
+          "hash": "g/HxWsgovOexS/0ZIZU7lA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NModbus.Utility.DiscriminatedUnion-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NModbus.Utility.DiscriminatedUnion-2.html",
+          "hash": "u1xqpJquf1gW/clGZTtl6Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NModbus.Utility.DiscriminatedUnionOption.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NModbus.Utility.DiscriminatedUnionOption.html",
+          "hash": "ttEe2SJ12UIn3m/sSpUVpQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NModbus.Utility.ModbusUtility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NModbus.Utility.ModbusUtility.html",
+          "hash": "8sxhx+uRkqjxmsl2ZO0ALQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NModbus.Utility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NModbus.Utility.html",
+          "hash": "zy0J7+jmhW4+c1KUffLRxg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NModbus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NModbus.html",
+          "hash": "d7O+Ws+zxz+9ciYXA3BK4A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "ScArkYnnzPanHciEr1SFiA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": true,
+        "incrementalPhase": "build"
+      },
+      "processors": {
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build"
+        },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build"
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build"
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": true,
+        "details": "Can support incremental post processing.",
+        "incrementalPhase": "postProcessing"
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
